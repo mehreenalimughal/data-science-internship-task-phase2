@@ -1,3 +1,5 @@
+GitHub Repository Link: https://github.com/mehreenalimughal/data-science-internship-task-phase2
+
 # Data Science & Analytics Internship Tasks
 
 This repository contains tasks completed as part of my **Data Science & Analytics Internship at DevelopersHub Corporation**.  
