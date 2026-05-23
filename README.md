@@ -1,83 +1,114 @@
-# Data Science Internship – DevelopersHub Corporation
+# Data Science & Analytics Internship Tasks
 
-This repository contains advanced data science tasks completed as part of the Data Science Internship at DevelopersHub Corporation.  
-The goal of this internship is to gain hands-on experience in machine learning, data analysis, time series forecasting, and business intelligence using real-world datasets.
-
----
-
-## 📌 Completed Tasks
-
-### ✅ Task 1: Term Deposit Subscription Prediction (Bank Marketing)
-**Objective:**  
-Predict whether a bank customer will subscribe to a term deposit.
-
-**Approach:**
-- Data cleaning and preprocessing
-- Label encoding for categorical variables
-- Logistic Regression and Random Forest models
-- Evaluation using Confusion Matrix, F1 Score, and ROC Curve
-- Model interpretability using SHAP
-
-**Outcome:**
-Built a classification model to predict customer subscription behavior.
+This repository contains tasks completed as part of my **Data Science & Analytics Internship at DevelopersHub Corporation**.  
+These tasks focus on building practical skills in data analysis, machine learning, clustering, and time series forecasting using Python.
 
 ---
 
-### ✅ Task 2: Customer Segmentation Using K-Means
-**Objective:**  
-Segment mall customers based on purchasing behavior.
+# Task 1: Term Deposit Subscription Prediction (Bank Marketing)
 
-**Approach:**
-- Exploratory Data Analysis (EDA)
-- Feature scaling
-- K-Means clustering
-- PCA visualization of clusters
-- Business interpretation of each segment
+## Objective
+To predict whether a bank customer will subscribe to a term deposit.
 
-**Outcome:**
-Identified distinct customer groups for targeted marketing strategies.
+## Dataset
+Bank Marketing Dataset
 
----
+## Tools & Libraries
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-### ✅ Task 3: Energy Consumption Time Series Forecasting
-**Objective:**  
-Forecast household energy usage using historical data.
+## Steps Performed
+- Loaded and explored dataset  
+- Data cleaning and preprocessing  
+- Converted categorical variables using encoding techniques  
+- Split data into training and testing sets  
+- Applied Logistic Regression model  
+- Evaluated model using:
+  - Accuracy Score  
+  - Confusion Matrix  
+  - F1 Score  
 
-**Approach:**
-- Datetime preprocessing and resampling
-- Feature engineering for time series data
-- ARIMA and XGBoost models
-- Model evaluation using MAE and RMSE
-- Actual vs predicted visualization
-
-**Outcome:**
-Developed forecasting models to predict short-term energy consumption trends.
-
----
-
-## 🛠️ Tools & Libraries Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- XGBoost
-- Statsmodels
-- SHAP
+## Key Insights
+- Customer job, balance, and duration strongly influence subscription  
+- Logistic Regression provides a good baseline model  
+- Proper encoding of categorical variables is necessary for model performance  
 
 ---
 
-## 📊 Key Skills Learned
-- Data preprocessing & cleaning
-- Feature engineering
-- Supervised & unsupervised learning
-- Time series forecasting
-- Model evaluation techniques
-- Explainable AI (XAI)
-- Business insight generation
+# Task 2: Customer Segmentation (K-Means Clustering)
+
+## Objective
+To segment customers based on behavior and purchasing patterns.
+
+## Dataset
+Customer dataset (behavior-based dataset)
+
+## Tools & Libraries
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+## Steps Performed
+- Loaded dataset and performed exploratory data analysis (EDA)  
+- Standardized numerical features  
+- Applied K-Means clustering algorithm  
+- Used Elbow Method to find optimal number of clusters  
+- Visualized clusters using scatter plots  
+
+## Key Insights
+- Customers can be grouped into meaningful clusters  
+- Helps businesses in targeted marketing strategies  
+- Clustering improves understanding of customer behavior  
 
 ---
 
-## 📌 Note
-This repository is part of an internship program and demonstrates practical application of machine learning and data science techniques on real-world datasets.
+# Task 3: Energy Consumption Forecasting (Time Series Analysis)
+
+## Objective
+To forecast household energy consumption using historical data.
+
+## Dataset
+Household Power Consumption Dataset
+
+## Tools & Libraries
+- Python  
+- Pandas  
+- Matplotlib  
+- Statsmodels  
+- Scikit-learn  
+
+## Steps Performed
+- Converted Date and Time into datetime format  
+- Set datetime as index  
+- Resampled data to hourly frequency  
+- Handled missing values  
+- Applied ARIMA model for forecasting  
+- Visualized actual vs predicted values  
+
+## Key Insights
+- Energy consumption shows strong time-based patterns  
+- Resampling simplifies time-series analysis  
+- ARIMA model captures trends and short-term fluctuations  
+
+---
+
+# Overall Conclusion
+
+These tasks helped in developing strong skills in:
+
+- Data preprocessing and cleaning  
+- Exploratory data analysis (EDA)  
+- Machine learning models (classification & clustering)  
+- Time series forecasting  
+- Model evaluation techniques  
+
+---
+
+# Author
+**Mehreen Ali Mughal**
+**DHC-8620**
